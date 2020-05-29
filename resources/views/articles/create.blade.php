@@ -36,13 +36,13 @@
                     <label for="category">Category</label>
                     <select name="category" id="category" class="form-control">
                         @foreach($categories as $category)
-                    <option value="{{$category->id}}"
-                        @if(isset($article))
-                        @if($category->id == $article->category_id)
-                          selected
-                        @endif
-                        @endif
-                        >
+                            <option value="{{$category->id}}"
+                                @if(isset($article))
+                                @if($category->id == $article->category_id)
+                                selected
+                                @endif
+                                @endif
+                            >
                         {{$category->name}}
                     </option>
                         @endforeach
