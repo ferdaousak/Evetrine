@@ -3,19 +3,19 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
-        
+
             <!-- CSRF Token -->
             <meta name="csrf-token" content="{{ csrf_token() }}">
-        
+
             <title>{{ config('app.name', 'Evetrine') }}</title>
-        
+
             <!-- Scripts -->
             <script src="{{ asset('js/app.js') }}" defer></script>
-            <!-- pagination script-->   
+            <!-- pagination script-->
             <!-- Fonts -->
             <link rel="dns-prefetch" href="//fonts.gstatic.com">
             <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-        
+
             <!-- Styles -->
             <link href="{{ asset('css/app.css') }}" rel="stylesheet">
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -67,13 +67,13 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-            .parent 
+            .parent
             {
                 display: flex;
                 flex-wrap: wrap;
             }
 
-            .child 
+            .child
             {
                 flex: 1 0 21%; /* explanation below */
                 margin: 5px;
@@ -145,7 +145,7 @@
         </nav>
             <div class="content">
                 <div class="title mx-auto" style="color: coral;width:100%; margin-top:10%">
-                    Evetrine Adminstration
+                    Evitrine Administration
                 </div>
             </div>
         </div>
