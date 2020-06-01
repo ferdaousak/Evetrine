@@ -11,7 +11,7 @@ class FrontEnd extends Controller
 
     public function index()
     {
-        return view('welcome')->with('articles', Article::all());
+        return view('frontend')->with('articles', Article::all());
     }
 
     public function admin()
