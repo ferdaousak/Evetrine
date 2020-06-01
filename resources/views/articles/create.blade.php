@@ -25,7 +25,7 @@
                 @endif
                 <div class="form-group">
                     <label for="title">Title</label>
-                <input type="text" id="title" class="form-control" name="title" value="{{isset($article) ? $article->title : ""}}">
+                    <input type="text" id="title" class="form-control" name="title" value="{{isset($article) ? $article->title : ""}}">
                 </div>
                 <div class="form-group">
                     <label for="description">Description</label>
